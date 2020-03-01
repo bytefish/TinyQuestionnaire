@@ -20,7 +20,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { ContactComponent } from './components/contact/contact.component';
 import { AddressComponent } from './components/address/address.component';
 import { SymptomComponent } from './components/symptom/symptom.component';
-import { HealthComponent } from './questionnaires/health/health.component';
+import { HealthQuestionnaireComponent } from './questionnaires/health/health-questionnaire.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +28,7 @@ import { HealthComponent } from './questionnaires/health/health.component';
     ContactComponent, 
     AddressComponent,  
     SymptomComponent,
-    HealthComponent
+    HealthQuestionnaireComponent
   ],
   imports: [
     BrowserModule,

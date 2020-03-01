@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
 
 @Component({
-  selector: 'app-health',
-  templateUrl: './health.component.html',
-  styleUrls: ['./health.component.css']
+  selector: 'app-health-questionnaire',
+  templateUrl: './health-questionnaire.component.html',
+  styleUrls: ['./health-questionnaire.component.css']
 })
-export class HealthComponent {
+export class HealthQuestionnaireComponent {
   
   submitted: boolean = false;
 
