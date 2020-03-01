@@ -26,6 +26,12 @@ And no matter how hard you try to satisfy everyones requirements, the abstractio
 up with will break. The only thing you could do for questionnaires and surveys is defining 
 a good way to reuse components.
 
+## What we are going to build ##
+
+<a href="https://raw.githubusercontent.com/bytefish/TinyQuestionnaire/master/TinyQuestionnaire/images/survey.png">
+    <img src="https://raw.githubusercontent.com/bytefish/TinyQuestionnaire/master/TinyQuestionnaire/images/survey.png" alt="Survey App Screenshot" width="50%" />
+</a>
+
 ## Where to find more ##
 
 The article for this Github repository can be found at:
