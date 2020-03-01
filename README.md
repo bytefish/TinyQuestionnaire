@@ -30,8 +30,8 @@ a good way to reuse components.
 
 We are going to build a survey, that is composed of several custom components:
 
-<a href="https://raw.githubusercontent.com/bytefish/TinyQuestionnaire/master/TinyQuestionnaire/images/survey.png">
-    <img src="https://raw.githubusercontent.com/bytefish/TinyQuestionnaire/master/TinyQuestionnaire/images/survey.png" alt="Survey App Screenshot" width="50%" />
+<a href="https://raw.githubusercontent.com/bytefish/TinyQuestionnaire/master/images/survey.png">
+    <img src="https://raw.githubusercontent.com/bytefish/TinyQuestionnaire/master/images/survey.png" alt="Survey App Screenshot" width="50%" />
 </a>
 
 ## Where to find more ##
