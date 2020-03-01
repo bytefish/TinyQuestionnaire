@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-health',
@@ -7,5 +8,9 @@ import { Component } from '@angular/core';
 })
 export class HealthComponent {
   
-  
+  onSubmit(form: NgForm): void {
+    const json = JSON.stringify(form.value);
+
+    console.log(json);
+  }
 }
