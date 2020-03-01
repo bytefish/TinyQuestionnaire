@@ -8,9 +8,20 @@ import { NgForm } from '@angular/forms';
 })
 export class HealthComponent {
   
+  submitted: boolean = false;
+
   onSubmit(form: NgForm): void {
+    return;
+  }
+
+  onClick(form: NgForm): void {
+    this.submitted = true;
+
     const json = JSON.stringify(form.value);
 
     console.log(json);
+
   }
+
+  
 }
