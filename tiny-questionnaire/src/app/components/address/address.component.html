@@ -1,12 +1,12 @@
 <div ngModelGroup="{{modelGroupName}}">
 
-    <div fxLayout="row" fxLayoutGap="20px">
+    <div fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="20px" fxLayoutGap.lt-md="0px">
         <mat-form-field fxFlex="100">
             <input matInput placeholder="Street" name="street" ngModel i18n-placeholder required>
         </mat-form-field>
     </div>
 
-    <div fxLayout="row" fxLayoutGap="20px">
+    <div fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="20px" fxLayoutGap.lt-md="0px">
         <mat-form-field fxFlex="20">
             <input matInput placeholder="ZIP Code" name="zip" ngModel i18n-placeholder required>
         </mat-form-field>
