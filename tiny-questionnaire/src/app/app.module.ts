@@ -8,14 +8,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 
-import {MatInputModule} from '@angular/material/input';
-import {MatAutocompleteModule} from '@angular/material/autocomplete';
-import {MatSelectModule} from '@angular/material/select';
-import {MatCardModule} from '@angular/material/card';
-import { MatDatepickerModule} from '@angular/material/datepicker'
-import { MatStepperModule} from '@angular/material/stepper'
+import { MatInputModule } from '@angular/material/input';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { MatSelectModule } from '@angular/material/select';
+import { MatCardModule } from '@angular/material/card';
+import { MatDatepickerModule } from '@angular/material/datepicker'
+import { MatStepperModule } from '@angular/material/stepper'
 import { MatMomentDateModule } from '@angular/material-moment-adapter';
 import { MatButtonModule } from '@angular/material/button';
+import { LayoutModule } from '@angular/cdk/layout'
 
 import { ContactComponent } from './components/contact/contact.component';
 import { AddressComponent } from './components/address/address.component';
@@ -25,18 +26,19 @@ import { HealthQuestionnaireComponent } from './questionnaires/health/health-que
 @NgModule({
   declarations: [
     AppComponent,
-    ContactComponent, 
-    AddressComponent,  
+    ContactComponent,
+    AddressComponent,
     SymptomComponent,
     HealthQuestionnaireComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    LayoutModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    FlexLayoutModule, 
-    MatInputModule, 
+    FlexLayoutModule,
+    MatInputModule,
     MatSelectModule,
     MatCardModule,
     MatDatepickerModule,
@@ -44,9 +46,8 @@ import { HealthQuestionnaireComponent } from './questionnaires/health/health-que
     MatAutocompleteModule,
     MatStepperModule,
     MatButtonModule
-    
   ],
-  providers: [ ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
