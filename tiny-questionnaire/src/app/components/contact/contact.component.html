@@ -13,7 +13,7 @@
 
         <mat-form-field fxFlex="20">
             <mat-label i18n>Gender</mat-label>
-                <mat-select required>
+                <mat-select name="gender" required ngModel>
                     <mat-option value="Female" i18n>Female</mat-option>
                     <mat-option value="Male" i18n>Male</mat-option>
               <mat-option value="Non-Binary" i18n>Non-Binary</mat-option>
@@ -53,5 +53,6 @@
         </mat-form-field>
     </div>
 
-    <app-address modelGroupName="address"></app-address> 
+    <app-address modelGroupName="address"></app-address>
+
 </div>
